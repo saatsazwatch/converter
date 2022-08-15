@@ -1,0 +1,700 @@
+- meta:
+    id: 1
+    slug: nanosecond-to-nanosecond
+    name: nanosecond to nanosecond
+    description: nanosecond to nanosecond desc
+  from: nanosecond (ns)
+  to: nanosecond (ns)
+- meta:
+    id: 2
+    slug: nanosecond-to-microsecond
+    name: nanosecond to microsecond
+    description: nanosecond to microsecond desc
+  from: nanosecond (ns)
+  to: microsecond (µs)
+- meta:
+    id: 3
+    slug: nanosecond-to-millisecond
+    name: nanosecond to millisecond
+    description: nanosecond to millisecond desc
+  from: nanosecond (ns)
+  to: millisecond (ms)
+- meta:
+    id: 4
+    slug: nanosecond-to-second
+    name: nanosecond to second
+    description: nanosecond to second desc
+  from: nanosecond (ns)
+  to: second (sec)
+- meta:
+    id: 5
+    slug: nanosecond-to-minute
+    name: nanosecond to minute
+    description: nanosecond to minute desc
+  from: nanosecond (ns)
+  to: minute (min)
+- meta:
+    id: 6
+    slug: nanosecond-to-hour
+    name: nanosecond to hour
+    description: nanosecond to hour desc
+  from: nanosecond (ns)
+  to: hour (hr)
+- meta:
+    id: 7
+    slug: nanosecond-to-day
+    name: nanosecond to day
+    description: nanosecond to day desc
+  from: nanosecond (ns)
+  to: day (d)
+- meta:
+    id: 8
+    slug: nanosecond-to-week
+    name: nanosecond to week
+    description: nanosecond to week desc
+  from: nanosecond (ns)
+  to: week (wk)
+- meta:
+    id: 9
+    slug: nanosecond-to-month
+    name: nanosecond to month
+    description: nanosecond to month desc
+  from: nanosecond (ns)
+  to: month (mo)
+- meta:
+    id: 10
+    slug: nanosecond-to-year
+    name: nanosecond to year
+    description: nanosecond to year desc
+  from: nanosecond (ns)
+  to: year (yr)
+- meta:
+    id: 11
+    slug: microsecond-to-nanosecond
+    name: microsecond to nanosecond
+    description: microsecond to nanosecond desc
+  from: microsecond (µs)
+  to: nanosecond (ns)
+- meta:
+    id: 12
+    slug: microsecond-to-microsecond
+    name: microsecond to microsecond
+    description: microsecond to microsecond desc
+  from: microsecond (µs)
+  to: microsecond (µs)
+- meta:
+    id: 13
+    slug: microsecond-to-millisecond
+    name: microsecond to millisecond
+    description: microsecond to millisecond desc
+  from: microsecond (µs)
+  to: millisecond (ms)
+- meta:
+    id: 14
+    slug: microsecond-to-second
+    name: microsecond to second
+    description: microsecond to second desc
+  from: microsecond (µs)
+  to: second (sec)
+- meta:
+    id: 15
+    slug: microsecond-to-minute
+    name: microsecond to minute
+    description: microsecond to minute desc
+  from: microsecond (µs)
+  to: minute (min)
+- meta:
+    id: 16
+    slug: microsecond-to-hour
+    name: microsecond to hour
+    description: microsecond to hour desc
+  from: microsecond (µs)
+  to: hour (hr)
+- meta:
+    id: 17
+    slug: microsecond-to-day
+    name: microsecond to day
+    description: microsecond to day desc
+  from: microsecond (µs)
+  to: day (d)
+- meta:
+    id: 18
+    slug: microsecond-to-week
+    name: microsecond to week
+    description: microsecond to week desc
+  from: microsecond (µs)
+  to: week (wk)
+- meta:
+    id: 19
+    slug: microsecond-to-month
+    name: microsecond to month
+    description: microsecond to month desc
+  from: microsecond (µs)
+  to: month (mo)
+- meta:
+    id: 20
+    slug: microsecond-to-year
+    name: microsecond to year
+    description: microsecond to year desc
+  from: microsecond (µs)
+  to: year (yr)
+- meta:
+    id: 21
+    slug: millisecond-to-nanosecond
+    name: millisecond to nanosecond
+    description: millisecond to nanosecond desc
+  from: millisecond (ms)
+  to: nanosecond (ns)
+- meta:
+    id: 22
+    slug: millisecond-to-microsecond
+    name: millisecond to microsecond
+    description: millisecond to microsecond desc
+  from: millisecond (ms)
+  to: microsecond (µs)
+- meta:
+    id: 23
+    slug: millisecond-to-millisecond
+    name: millisecond to millisecond
+    description: millisecond to millisecond desc
+  from: millisecond (ms)
+  to: millisecond (ms)
+- meta:
+    id: 24
+    slug: millisecond-to-second
+    name: millisecond to second
+    description: millisecond to second desc
+  from: millisecond (ms)
+  to: second (sec)
+- meta:
+    id: 25
+    slug: millisecond-to-minute
+    name: millisecond to minute
+    description: millisecond to minute desc
+  from: millisecond (ms)
+  to: minute (min)
+- meta:
+    id: 26
+    slug: millisecond-to-hour
+    name: millisecond to hour
+    description: millisecond to hour desc
+  from: millisecond (ms)
+  to: hour (hr)
+- meta:
+    id: 27
+    slug: millisecond-to-day
+    name: millisecond to day
+    description: millisecond to day desc
+  from: millisecond (ms)
+  to: day (d)
+- meta:
+    id: 28
+    slug: millisecond-to-week
+    name: millisecond to week
+    description: millisecond to week desc
+  from: millisecond (ms)
+  to: week (wk)
+- meta:
+    id: 29
+    slug: millisecond-to-month
+    name: millisecond to month
+    description: millisecond to month desc
+  from: millisecond (ms)
+  to: month (mo)
+- meta:
+    id: 30
+    slug: millisecond-to-year
+    name: millisecond to year
+    description: millisecond to year desc
+  from: millisecond (ms)
+  to: year (yr)
+- meta:
+    id: 31
+    slug: second-to-nanosecond
+    name: second to nanosecond
+    description: second to nanosecond desc
+  from: second (sec)
+  to: nanosecond (ns)
+- meta:
+    id: 32
+    slug: second-to-microsecond
+    name: second to microsecond
+    description: second to microsecond desc
+  from: second (sec)
+  to: microsecond (µs)
+- meta:
+    id: 33
+    slug: second-to-millisecond
+    name: second to millisecond
+    description: second to millisecond desc
+  from: second (sec)
+  to: millisecond (ms)
+- meta:
+    id: 34
+    slug: second-to-second
+    name: second to second
+    description: second to second desc
+  from: second (sec)
+  to: second (sec)
+- meta:
+    id: 35
+    slug: second-to-minute
+    name: second to minute
+    description: second to minute desc
+  from: second (sec)
+  to: minute (min)
+- meta:
+    id: 36
+    slug: second-to-hour
+    name: second to hour
+    description: second to hour desc
+  from: second (sec)
+  to: hour (hr)
+- meta:
+    id: 37
+    slug: second-to-day
+    name: second to day
+    description: second to day desc
+  from: second (sec)
+  to: day (d)
+- meta:
+    id: 38
+    slug: second-to-week
+    name: second to week
+    description: second to week desc
+  from: second (sec)
+  to: week (wk)
+- meta:
+    id: 39
+    slug: second-to-month
+    name: second to month
+    description: second to month desc
+  from: second (sec)
+  to: month (mo)
+- meta:
+    id: 40
+    slug: second-to-year
+    name: second to year
+    description: second to year desc
+  from: second (sec)
+  to: year (yr)
+- meta:
+    id: 41
+    slug: minute-to-nanosecond
+    name: minute to nanosecond
+    description: minute to nanosecond desc
+  from: minute (min)
+  to: nanosecond (ns)
+- meta:
+    id: 42
+    slug: minute-to-microsecond
+    name: minute to microsecond
+    description: minute to microsecond desc
+  from: minute (min)
+  to: microsecond (µs)
+- meta:
+    id: 43
+    slug: minute-to-millisecond
+    name: minute to millisecond
+    description: minute to millisecond desc
+  from: minute (min)
+  to: millisecond (ms)
+- meta:
+    id: 44
+    slug: minute-to-second
+    name: minute to second
+    description: minute to second desc
+  from: minute (min)
+  to: second (sec)
+- meta:
+    id: 45
+    slug: minute-to-minute
+    name: minute to minute
+    description: minute to minute desc
+  from: minute (min)
+  to: minute (min)
+- meta:
+    id: 46
+    slug: minute-to-hour
+    name: minute to hour
+    description: minute to hour desc
+  from: minute (min)
+  to: hour (hr)
+- meta:
+    id: 47
+    slug: minute-to-day
+    name: minute to day
+    description: minute to day desc
+  from: minute (min)
+  to: day (d)
+- meta:
+    id: 48
+    slug: minute-to-week
+    name: minute to week
+    description: minute to week desc
+  from: minute (min)
+  to: week (wk)
+- meta:
+    id: 49
+    slug: minute-to-month
+    name: minute to month
+    description: minute to month desc
+  from: minute (min)
+  to: month (mo)
+- meta:
+    id: 50
+    slug: minute-to-year
+    name: minute to year
+    description: minute to year desc
+  from: minute (min)
+  to: year (yr)
+- meta:
+    id: 51
+    slug: hour-to-nanosecond
+    name: hour to nanosecond
+    description: hour to nanosecond desc
+  from: hour (hr)
+  to: nanosecond (ns)
+- meta:
+    id: 52
+    slug: hour-to-microsecond
+    name: hour to microsecond
+    description: hour to microsecond desc
+  from: hour (hr)
+  to: microsecond (µs)
+- meta:
+    id: 53
+    slug: hour-to-millisecond
+    name: hour to millisecond
+    description: hour to millisecond desc
+  from: hour (hr)
+  to: millisecond (ms)
+- meta:
+    id: 54
+    slug: hour-to-second
+    name: hour to second
+    description: hour to second desc
+  from: hour (hr)
+  to: second (sec)
+- meta:
+    id: 55
+    slug: hour-to-minute
+    name: hour to minute
+    description: hour to minute desc
+  from: hour (hr)
+  to: minute (min)
+- meta:
+    id: 56
+    slug: hour-to-hour
+    name: hour to hour
+    description: hour to hour desc
+  from: hour (hr)
+  to: hour (hr)
+- meta:
+    id: 57
+    slug: hour-to-day
+    name: hour to day
+    description: hour to day desc
+  from: hour (hr)
+  to: day (d)
+- meta:
+    id: 58
+    slug: hour-to-week
+    name: hour to week
+    description: hour to week desc
+  from: hour (hr)
+  to: week (wk)
+- meta:
+    id: 59
+    slug: hour-to-month
+    name: hour to month
+    description: hour to month desc
+  from: hour (hr)
+  to: month (mo)
+- meta:
+    id: 60
+    slug: hour-to-year
+    name: hour to year
+    description: hour to year desc
+  from: hour (hr)
+  to: year (yr)
+- meta:
+    id: 61
+    slug: day-to-nanosecond
+    name: day to nanosecond
+    description: day to nanosecond desc
+  from: day (d)
+  to: nanosecond (ns)
+- meta:
+    id: 62
+    slug: day-to-microsecond
+    name: day to microsecond
+    description: day to microsecond desc
+  from: day (d)
+  to: microsecond (µs)
+- meta:
+    id: 63
+    slug: day-to-millisecond
+    name: day to millisecond
+    description: day to millisecond desc
+  from: day (d)
+  to: millisecond (ms)
+- meta:
+    id: 64
+    slug: day-to-second
+    name: day to second
+    description: day to second desc
+  from: day (d)
+  to: second (sec)
+- meta:
+    id: 65
+    slug: day-to-minute
+    name: day to minute
+    description: day to minute desc
+  from: day (d)
+  to: minute (min)
+- meta:
+    id: 66
+    slug: day-to-hour
+    name: day to hour
+    description: day to hour desc
+  from: day (d)
+  to: hour (hr)
+- meta:
+    id: 67
+    slug: day-to-day
+    name: day to day
+    description: day to day desc
+  from: day (d)
+  to: day (d)
+- meta:
+    id: 68
+    slug: day-to-week
+    name: day to week
+    description: day to week desc
+  from: day (d)
+  to: week (wk)
+- meta:
+    id: 69
+    slug: day-to-month
+    name: day to month
+    description: day to month desc
+  from: day (d)
+  to: month (mo)
+- meta:
+    id: 70
+    slug: day-to-year
+    name: day to year
+    description: day to year desc
+  from: day (d)
+  to: year (yr)
+- meta:
+    id: 71
+    slug: week-to-nanosecond
+    name: week to nanosecond
+    description: week to nanosecond desc
+  from: week (wk)
+  to: nanosecond (ns)
+- meta:
+    id: 72
+    slug: week-to-microsecond
+    name: week to microsecond
+    description: week to microsecond desc
+  from: week (wk)
+  to: microsecond (µs)
+- meta:
+    id: 73
+    slug: week-to-millisecond
+    name: week to millisecond
+    description: week to millisecond desc
+  from: week (wk)
+  to: millisecond (ms)
+- meta:
+    id: 74
+    slug: week-to-second
+    name: week to second
+    description: week to second desc
+  from: week (wk)
+  to: second (sec)
+- meta:
+    id: 75
+    slug: week-to-minute
+    name: week to minute
+    description: week to minute desc
+  from: week (wk)
+  to: minute (min)
+- meta:
+    id: 76
+    slug: week-to-hour
+    name: week to hour
+    description: week to hour desc
+  from: week (wk)
+  to: hour (hr)
+- meta:
+    id: 77
+    slug: week-to-day
+    name: week to day
+    description: week to day desc
+  from: week (wk)
+  to: day (d)
+- meta:
+    id: 78
+    slug: week-to-week
+    name: week to week
+    description: week to week desc
+  from: week (wk)
+  to: week (wk)
+- meta:
+    id: 79
+    slug: week-to-month
+    name: week to month
+    description: week to month desc
+  from: week (wk)
+  to: month (mo)
+- meta:
+    id: 80
+    slug: week-to-year
+    name: week to year
+    description: week to year desc
+  from: week (wk)
+  to: year (yr)
+- meta:
+    id: 81
+    slug: month-to-nanosecond
+    name: month to nanosecond
+    description: month to nanosecond desc
+  from: month (mo)
+  to: nanosecond (ns)
+- meta:
+    id: 82
+    slug: month-to-microsecond
+    name: month to microsecond
+    description: month to microsecond desc
+  from: month (mo)
+  to: microsecond (µs)
+- meta:
+    id: 83
+    slug: month-to-millisecond
+    name: month to millisecond
+    description: month to millisecond desc
+  from: month (mo)
+  to: millisecond (ms)
+- meta:
+    id: 84
+    slug: month-to-second
+    name: month to second
+    description: month to second desc
+  from: month (mo)
+  to: second (sec)
+- meta:
+    id: 85
+    slug: month-to-minute
+    name: month to minute
+    description: month to minute desc
+  from: month (mo)
+  to: minute (min)
+- meta:
+    id: 86
+    slug: month-to-hour
+    name: month to hour
+    description: month to hour desc
+  from: month (mo)
+  to: hour (hr)
+- meta:
+    id: 87
+    slug: month-to-day
+    name: month to day
+    description: month to day desc
+  from: month (mo)
+  to: day (d)
+- meta:
+    id: 88
+    slug: month-to-week
+    name: month to week
+    description: month to week desc
+  from: month (mo)
+  to: week (wk)
+- meta:
+    id: 89
+    slug: month-to-month
+    name: month to month
+    description: month to month desc
+  from: month (mo)
+  to: month (mo)
+- meta:
+    id: 90
+    slug: month-to-year
+    name: month to year
+    description: month to year desc
+  from: month (mo)
+  to: year (yr)
+- meta:
+    id: 91
+    slug: year-to-nanosecond
+    name: year to nanosecond
+    description: year to nanosecond desc
+  from: year (yr)
+  to: nanosecond (ns)
+- meta:
+    id: 92
+    slug: year-to-microsecond
+    name: year to microsecond
+    description: year to microsecond desc
+  from: year (yr)
+  to: microsecond (µs)
+- meta:
+    id: 93
+    slug: year-to-millisecond
+    name: year to millisecond
+    description: year to millisecond desc
+  from: year (yr)
+  to: millisecond (ms)
+- meta:
+    id: 94
+    slug: year-to-second
+    name: year to second
+    description: year to second desc
+  from: year (yr)
+  to: second (sec)
+- meta:
+    id: 95
+    slug: year-to-minute
+    name: year to minute
+    description: year to minute desc
+  from: year (yr)
+  to: minute (min)
+- meta:
+    id: 96
+    slug: year-to-hour
+    name: year to hour
+    description: year to hour desc
+  from: year (yr)
+  to: hour (hr)
+- meta:
+    id: 97
+    slug: year-to-day
+    name: year to day
+    description: year to day desc
+  from: year (yr)
+  to: day (d)
+- meta:
+    id: 98
+    slug: year-to-week
+    name: year to week
+    description: year to week desc
+  from: year (yr)
+  to: week (wk)
+- meta:
+    id: 99
+    slug: year-to-month
+    name: year to month
+    description: year to month desc
+  from: year (yr)
+  to: month (mo)
+- meta:
+    id: 100
+    slug: year-to-year
+    name: year to year
+    description: year to year desc
+  from: year (yr)
+  to: year (yr)

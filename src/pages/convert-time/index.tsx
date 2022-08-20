@@ -148,7 +148,7 @@ const IndexPage = () => {
                   Convert units of time. Convert fractional time to seconds, minutes, hours, days,
                   weeks, and years. Learn how to convert one unit of time to another.
                 </p>
-                <h4 className="mt-5 text-lg font-medium leading-6 text-gray-900">Calculator Use</h4>
+                <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">Calculator Use</h2>
                 <p className="mt-1 text-sm text-gray-600">
                   Enter the hours value and the units you want to convert to, then select the units
                   you want to convert the hours to. You can convert between seconds, milliseconds,
@@ -169,9 +169,9 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <h4 className="mt-5 text-lg font-medium leading-6 text-gray-900">
+          <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">
             How to Convert Units of Time
-          </h4>
+          </h2>
           <p className="mt-3 text-sm text-gray-600">
             To convert units of time You can use the conversion factor to convert from one unit of
             time to another by multiplication or division. Once you know the conversion factor,

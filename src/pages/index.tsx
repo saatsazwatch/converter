@@ -13,10 +13,10 @@ const features = [
       <p className="mt-2 ml-16 text-base text-gray-500">
         The SaatsazWatch{" "}
         <Link
-          to={"/convert-time"}
+          to={"/convert-time/"}
           className="underline text-primary hover:text-blue-600 font-medium"
         >
-          time Converter
+          Time Converter
         </Link>{" "}
         is a simple tool that helps you convert time between different countries. You just need to
         enter the start time and end time and choose the country where you want to convert.

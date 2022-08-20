@@ -20,6 +20,10 @@ const links = [
     href: "https://saatsazwatch.com/category/compare/",
   },
   {
+    name: "Tools",
+    href: "https://saatsazwatch.com/tools/",
+  },
+  {
     name: "Contact Us",
     href: "https://saatsazwatch.com/contact-us/",
   },

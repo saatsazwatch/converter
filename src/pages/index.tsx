@@ -18,8 +18,7 @@ const features = [
         >
           Time Converter
         </Link>{" "}
-        is a simple tool that helps you convert time between different countries. You just need to
-        enter the start time and end time and choose the country where you want to convert.
+        is an advanced time conversion tool that helps you to convert a unit of time to another. You simply enter the value and its time unit, and you select the desired new time unit and it will be converted to it.
       </p>
     ),
     icon: ClockIcon,

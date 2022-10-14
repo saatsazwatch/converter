@@ -145,30 +145,41 @@ const IndexPage = () => {
               <div>
                 <h1 className="text-lg font-medium leading-6 text-gray-900">Time Converter Tool</h1>
                 <p className="mt-1 text-sm text-gray-600">
-                  Convert units of time. Convert fractional time to seconds, minutes, hours, days,
-                  weeks, and years. Learn how to convert one unit of time to another.
+                This advanced time converter tool allows you to change one unit of time to another with ease. Making it a perfect tool for your time conversion math problems.
                 </p>
-                <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">Calculator Use</h2>
                 <p className="mt-1 text-sm text-gray-600">
-                  Enter the hours value and the units you want to convert to, then select the units
-                  you want to convert the hours to. You can convert between seconds, milliseconds,
-                  microseconds, nanoseconds, days, hours, weeks, months, and years. The months in
-                  this hour conversion calculator are calculated using an average of 30.
+                This time converter even takes leap years (which have 366 days instead of 365, and happen every four years) into account. It also considers days of a month as 30.44 which is the average of all months which have different days. It’s all MATH!
                 </p>
-                <p className="mt-3 text-sm text-gray-600">
-                  16 days per month. This equals 365 days per year divided by 12 months per year.
-                  365 ÷ 12 = 30.
-                </p>
-                <p className="mt-3 text-sm text-gray-600">
-                  16 days per month. In this hour conversion, years is calculated as 365 days in a
-                  year. This calculator doesn't take into account the extra days in his 366-day leap
-                  year. To convert between units of time You can use conversion factors to convert
-                  between units of time by multiplying or dividing. Once you know the conversion
-                  factor, converting between units can be a simple math problem.
+                <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">How to Use</h2>
+                <p className="mt-1 text-sm text-gray-600">
+                  Fairly simple…
+                  <p className="mt-1 text-sm text-gray-600">
+                    <ul>
+                      <li>
+                      1. Enter a value.
+                      </li>
+                      <li>
+                      2. Select the time unit of the entered value.
+                      </li>
+                      <li>
+                      3. Select the desired time unit (which you want to convert to)
+                      </li>
+                    </ul>
+                  </p>
+                <p className="mt-1 text-sm text-gray-600">
+                  And the time converter tool will do the calculation.</p>
                 </p>
               </div>
             </div>
           </div>
+          <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">Examples</h2>
+                <p className="mt-1 text-sm text-gray-600">
+                2 days to hours = 48 (which means that there are 48 hours in 2 days.)
+                </p>
+                <p className="mt-1 text-sm text-gray-600">
+                 1 year to days = 365.25 (meaning there are 365 days in a year with a ¼ probability of it being a leap year.)
+                </p>
+          {/* 
           <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">
             How to Convert Units of Time
           </h2>
@@ -181,6 +192,8 @@ const IndexPage = () => {
               S is the starting value, C is the conversion factor, and E is the conversion result.
             </p>
           </p>
+          */}
+          
         </div>
         <Linkbox />
       </main>

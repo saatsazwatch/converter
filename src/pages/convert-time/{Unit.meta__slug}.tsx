@@ -61,7 +61,7 @@ const IndexPage = (props: Props) => {
           <ol className="inline-flex items-center space-x-1 md:space-x-3">
             <li className="inline-flex items-center">
               <a
-                href="https://saatsazwatch.com/"
+                href="https://www.saatsazwatch.com/"
                 className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900"
               >
                 <svg
@@ -90,7 +90,7 @@ const IndexPage = (props: Props) => {
                   ></path>
                 </svg>
                 <a
-                  href="https://saatsazwatch.com/tools/"
+                  href="https://www.saatsazwatch.com/tools/"
                   className="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2"
                 >
                   tools
@@ -112,7 +112,7 @@ const IndexPage = (props: Props) => {
                   ></path>
                 </svg>
                 <a
-                  href="https://saatsazwatch.com/tools/convert-time/"
+                  href="https://www.saatsazwatch.com/tools/convert-time/"
                   className="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2"
                 >
                   convert time
@@ -233,7 +233,7 @@ export const Head: HeadFC = (props) => {
   const to = capitalizeFirstLetter(meta.to.split(" ")[0]);
   const title = `${from} to ${to} Converter (${fromShort} to ${toShort}) - Saatsaz Watch`;
   const description = `This page provides a converter that converts an amount of time from ${from} to ${to}.`;
-  const url = `https://saatsazwatch.com/tools/convert-time/${meta.meta.slug}/`;
+  const url = `https://www.saatsazwatch.com/tools/convert-time/${meta.meta.slug}/`;
   return (
     <>
       <HeadSEO title={title} description={description}>
@@ -246,13 +246,13 @@ export const Head: HeadFC = (props) => {
                 "@type": "ListItem",
                 position: 1,
                 name: "tools",
-                item: "https://saatsazwatch.com/tools/",
+                item: "https://www.saatsazwatch.com/tools/",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "convert time",
-                item: "https://saatsazwatch.com/tools/convert-time/",
+                item: "https://www.saatsazwatch.com/tools/convert-time/",
               },
               {
                 "@type": "ListItem",

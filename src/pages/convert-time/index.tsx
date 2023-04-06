@@ -68,7 +68,7 @@ const IndexPage = () => {
                   ></path>
                 </svg>
                 <a
-                  href="https://saatsazwatch.com/tools/"
+                  href="https://www.saatsazwatch.com/tools/"
                   className="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2"
                 >
                   tools
@@ -208,7 +208,7 @@ export const Head: HeadFC = (props) => {
   const title = "Time Converter Tool - Saatsaz Watch";
   const description =
     "Convert units of time. Convert fractional time to seconds, minutes, hours, days, weeks, and years. Learn how to convert one unit of time to another.";
-  const url = "https://saatsazwatch.com/tools/convert-time/";
+  const url = "https://www.saatsazwatch.com/tools/convert-time/";
   return (
     <HeadSEO title={title} description={description}>
       <script type="application/ld+json">
@@ -220,7 +220,7 @@ export const Head: HeadFC = (props) => {
               "@type": "ListItem",
               position: 1,
               name: "tools",
-              item: "https://saatsazwatch.com/tools/",
+              item: "https://www.saatsazwatch.com/tools/",
             },
             {
               "@type": "ListItem",

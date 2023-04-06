@@ -9,27 +9,27 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 const links = [
   {
     name: "Home",
-    href: "https://saatsazwatch.com/",
+    href: "https://www.saatsazwatch.com/",
   },
   {
     name: "Watch Brands",
-    href: "https://saatsazwatch.com/category/brand/",
+    href: "https://www.saatsazwatch.com/category/brand/",
   },
   {
     name: "Watch Comparison Chart",
-    href: "https://saatsazwatch.com/category/compare/",
+    href: "https://www.saatsazwatch.com/category/compare/",
   },
   {
     name: "Tools",
-    href: "https://saatsazwatch.com/tools/",
+    href: "https://www.saatsazwatch.com/tools/",
   },
   {
     name: "Contact Us",
-    href: "https://saatsazwatch.com/contact-us/",
+    href: "https://www.saatsazwatch.com/contact-us/",
   },
   {
     name: "About Us",
-    href: "https://saatsazwatch.com/about-us/",
+    href: "https://www.saatsazwatch.com/about-us/",
   },
 ];
 

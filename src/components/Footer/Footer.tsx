@@ -9,13 +9,13 @@ export const Footer = () => {
         </span>
         <ul className="flex space-x-4 text-sm">
           <li>
-            <a href="https://saatsazwatch.com/privacy-policy/">Privacy Policy</a>
+            <a href="https://www.saatsazwatch.com/privacy-policy/">Privacy Policy</a>
           </li>
           <li>
-            <a href="https://saatsazwatch.com/about-us/">About Us</a>
+            <a href="https://www.saatsazwatch.com/about-us/">About Us</a>
           </li>
           <li>
-            <a href="https://saatsazwatch.com/contact-us/">Contact Us</a>
+            <a href="https://www.saatsazwatch.com/contact-us/">Contact Us</a>
           </li>
         </ul>
       </div>

@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="bg-[#161619] w-full">
       <div className="container mx-auto p-5 flex flex-col lg:flex-row space-y-3 md:space-y-0 justify-between items-center text-white">
         <span className="text-sm">
-          copyright © 2022 all rights reserved to <a href="/">Saatsaz Watch</a>
+          copyright © 2022 all rights reserved to <a href="https://www.saatsazwatch.com/">Saatsaz Watch</a>
         </span>
         <ul className="flex space-x-4 text-sm">
           <li>

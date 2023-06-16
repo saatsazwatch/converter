@@ -2,14 +2,14 @@ import React from "react";
 import { useSiteMetadata } from "@/hooks/use-site-metadata";
 
 export const HeadSEO = ({ title, description, pathname, children }: any) => {
-  const { favIcon, logo, siteUrl } = useSiteMetadata();
+  const { favIcon, logo, siteUrl, pathPrefix } = useSiteMetadata();
 
   const seo = {
     title: title,
     description: description,
     logo: `${siteUrl}/tools${logo}`,
     favIcon: `${siteUrl}/tools${favIcon}`,
-    url: `${siteUrl}${pathname || ``}/`,
+    url: `${siteUrl}${pathPrefix}${pathname || ``}/`,
   };
 
   //   const breadcrumbs =
@@ -24,7 +24,7 @@ export const HeadSEO = ({ title, description, pathname, children }: any) => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="content-language" content="en_US" />
       <meta name="Language" content="en" />
-      <meta name="autor" content="Saatsaz Watch" />
+      <meta name="author" content="Saatsaz Watch" />
       <meta name="owner" content="Saatsaz Watch" />
       <link rel="icon" type="image/x-icon" href={seo.favIcon} />
       <meta property="og:title" content={seo.title} />

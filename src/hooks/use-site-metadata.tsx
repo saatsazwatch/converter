@@ -8,6 +8,7 @@ export const useSiteMetadata = () => {
           favIcon
           logo
           siteUrl
+          pathPrefix
         }
       }
     }

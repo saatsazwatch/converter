@@ -98,7 +98,7 @@ const IndexPage = () => {
           <div className="md:grid md:grid-cols-2 md:gap-6">
             <div className="mt-5 md:mt-0 md:col-span-1">
               <div className="shadow sm:rounded-md ">
-                <div className="px-4 py-5 bg-white space-y-4 sm:p-6">
+                <div className="px-4 py-5 space-y-4 bg-white sm:p-6">
                   <div>
                     <label
                       htmlFor="company-website"
@@ -110,7 +110,7 @@ const IndexPage = () => {
                       type="text"
                       name="company-website"
                       id="company-website"
-                      className="focus:ring-primary mt-1 focus:border-primary flex-1 w-full rounded-md sm:text-sm border-gray-300"
+                      className="flex-1 w-full mt-1 border-gray-300 rounded-md focus:ring-primary focus:border-primary sm:text-sm"
                       placeholder="20"
                       onChange={(e) => setValue(e.target.value)}
                       value={value}
@@ -135,50 +135,49 @@ const IndexPage = () => {
                   </div>
                   <Button onClick={handleCalculate}>Calculate</Button>
                 </div>
-                <div className="px-4 py-3 bg-gray-50 sm:px-6 flex items-center space-x-2">
+                <div className="flex items-center px-4 py-3 space-x-2 bg-gray-50 sm:px-6">
                   <span className="block text-sm font-medium text-gray-400">Answer:</span>
                   <span className="block text-sm font-medium text-gray-900">{result}</span>
                 </div>
               </div>
             </div>
-            <div className="md:col-span-1 mt-5 lg:mt-0">
+            <div className="mt-5 md:col-span-1 lg:mt-0">
               <div>
                 <h1 className="text-lg font-medium leading-6 text-gray-900">Time Converter Tool</h1>
                 <p className="mt-1 text-sm text-gray-600">
-                This advanced time converter tool allows you to change one unit of time to another with ease. Making it a perfect tool for your time conversion math problems.
+                  This advanced time converter tool allows you to change one unit of time to another
+                  with ease. Making it a perfect tool for your time conversion math problems.
                 </p>
                 <p className="mt-1 text-sm text-gray-600">
-                This time converter even takes leap years (which have 366 days instead of 365, and happen every four years) into account. It also considers days of a month as 30.44 which is the average of all months which have different days. It’s all MATH!
+                  This time converter even takes leap years (which have 366 days instead of 365, and
+                  happen every four years) into account. It also considers days of a month as 30.44
+                  which is the average of all months which have different days. It’s all MATH!
                 </p>
                 <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">How to Use</h2>
                 <p className="mt-1 text-sm text-gray-600">
                   Fairly simple…
                   <p className="mt-1 text-sm text-gray-600">
                     <ul>
-                      <li>
-                      1. Enter a value.
-                      </li>
-                      <li>
-                      2. Select the time unit of the entered value.
-                      </li>
-                      <li>
-                      3. Select the desired time unit (which you want to convert to)
-                      </li>
+                      <li>1. Enter a value.</li>
+                      <li>2. Select the time unit of the entered value.</li>
+                      <li>3. Select the desired time unit (which you want to convert to)</li>
                     </ul>
                   </p>
-                <p className="mt-1 text-sm text-gray-600">
-                  And the time converter tool will do the calculation.</p>
+                  <p className="mt-1 text-sm text-gray-600">
+                    And the time converter tool will do the calculation.
+                  </p>
                 </p>
               </div>
             </div>
           </div>
           <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">Examples</h2>
-                <p className="mt-1 text-sm text-gray-600">
-                2 days to hours = 48 (which means that there are 48 hours in 2 days.)
-                </p>
-                <p className="mt-1 text-sm text-gray-600">
-                 1 year to days = 365.25 (meaning there are 365 days in a year with a ¼ probability of it being a leap year.)
-                </p>
+          <p className="mt-1 text-sm text-gray-600">
+            2 days to hours = 48 (which means that there are 48 hours in 2 days.)
+          </p>
+          <p className="mt-1 text-sm text-gray-600">
+            1 year to days = 365.25 (meaning there are 365 days in a year with a ¼ probability of it
+            being a leap year.)
+          </p>
           {/* 
           <h2 className="mt-5 text-lg font-medium leading-6 text-gray-900">
             How to Convert Units of Time
@@ -187,13 +186,12 @@ const IndexPage = () => {
             To convert units of time You can use the conversion factor to convert from one unit of
             time to another by multiplication or division. Once you know the conversion factor,
             converting between units becomes a simple math problem.
-            <p className="font-bold mt-1">S * C = E</p>
+            <p className="mt-1 font-bold">S * C = E</p>
             <p>
               S is the starting value, C is the conversion factor, and E is the conversion result.
             </p>
           </p>
           */}
-          
         </div>
         <Linkbox />
       </main>
@@ -210,7 +208,7 @@ export const Head: HeadFC = (props) => {
     "Convert units of time. Convert fractional time to seconds, minutes, hours, days, weeks, and years. Learn how to convert one unit of time to another.";
   const url = "https://www.saatsazwatch.com/tools/convert-time/";
   return (
-    <HeadSEO title={title} description={description}>
+    <HeadSEO title={title} description={description} pathname="/convert-time">
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",

@@ -36,24 +36,24 @@ const links = [
 export const Header = () => {
   return (
     <Popover className="relative bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6">
+        <div className="flex items-center justify-between py-6 border-b-2 border-gray-100 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="https://www.saatsazwatch.com/">
-              <img className="h-8 w-auto sm:h-10" src={logo} alt="" />
+              <img className="w-auto h-8 sm:h-10" src={logo} alt="" />
             </a>
           </div>
-          <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
-              <MenuIcon className="h-6 w-6" aria-hidden="true" />
+          <div className="-my-2 -mr-2 md:hidden">
+            <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
+              <MenuIcon className="w-6 h-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <ul className="hidden md:flex space-x-5">
+          <ul className="hidden space-x-5 md:flex">
             {links.map((item) => (
               <li>
                 <a
                   href={item.href}
-                  className="uppercase text-sm font-medium text-gray-500 hover:text-gray-900"
+                  className="text-sm font-medium text-gray-500 uppercase hover:text-gray-900"
                 >
                   {item.name}
                 </a>
@@ -74,17 +74,17 @@ export const Header = () => {
       >
         <Popover.Panel
           focus
-          className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50"
+          className="absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform md:hidden"
         >
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white">
-            <div className="pt-5 pb-6 px-5">
+          <div className="bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+            <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <img className="h-8 w-auto" src={logo} alt="Workflow" />
+                  <img className="w-auto h-8" src={logo} alt="Workflow" />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
-                    <XIcon className="h-6 w-6" aria-hidden="true" />
+                  <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
+                    <XIcon className="w-6 h-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export const Header = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                      className="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50"
                     >
                       <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                     </a>

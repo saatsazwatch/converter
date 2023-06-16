@@ -14,11 +14,13 @@ const features = [
         The SaatsazWatch{" "}
         <Link
           to={"/convert-time/"}
-          className="underline text-primary hover:text-blue-600 font-medium"
+          className="font-medium underline text-primary hover:text-blue-600"
         >
           Time Converter
         </Link>{" "}
-        is an advanced time conversion tool that helps you to convert a unit of time to another. You simply enter the value and its time unit, and you select the desired new time unit and it will be converted to it.
+        is an advanced time conversion tool that helps you to convert a unit of time to another. You
+        simply enter the value and its time unit, and you select the desired new time unit and it
+        will be converted to it.
       </p>
     ),
     icon: ClockIcon,
@@ -90,12 +92,12 @@ const IndexPage = () => {
           </ol>
         </nav>
         <div className="py-12 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="lg:text-center">
-              <h1 className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
+              <h1 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
                 Saatsaz Watch Tools
               </h1>
-              <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+              <p className="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto">
                 With SaatsazWatch you can use tools like convert time, date and calendar.
               </p>
             </div>
@@ -105,10 +107,10 @@ const IndexPage = () => {
                 {features.map((feature) => (
                   <div key={feature.name} className="relative">
                     <dt>
-                      <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
-                        <feature.icon className="h-6 w-6" aria-hidden="true" />
+                      <div className="absolute flex items-center justify-center w-12 h-12 text-white rounded-md bg-primary">
+                        <feature.icon className="w-6 h-6" aria-hidden="true" />
                       </div>
-                      <h2 className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      <h2 className="ml-16 text-lg font-medium leading-6 text-gray-900">
                         {feature.name}
                       </h2>
                     </dt>

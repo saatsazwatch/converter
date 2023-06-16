@@ -144,7 +144,7 @@ const IndexPage = (props: Props) => {
           <div className="md:grid md:grid-cols-2 md:gap-6">
             <div className="mt-5 md:mt-0 md:col-span-1">
               <div className="shadow sm:rounded-md ">
-                <div className="px-4 py-5 bg-white space-y-4 sm:p-6">
+                <div className="px-4 py-5 space-y-4 bg-white sm:p-6">
                   <div>
                     <label
                       htmlFor="company-website"
@@ -156,7 +156,7 @@ const IndexPage = (props: Props) => {
                       type="text"
                       name="company-website"
                       id="company-website"
-                      className="focus:ring-primary mt-1 focus:border-primary flex-1 w-full rounded-md sm:text-sm border-gray-300"
+                      className="flex-1 w-full mt-1 border-gray-300 rounded-md focus:ring-primary focus:border-primary sm:text-sm"
                       placeholder="20"
                       onChange={(e) => setValue(e.target.value)}
                       value={value}
@@ -181,13 +181,13 @@ const IndexPage = (props: Props) => {
                   </div>
                   <Button onClick={handleCalculate}>Calculate</Button>
                 </div>
-                <div className="px-4 py-3 bg-gray-50 sm:px-6 flex items-center space-x-2">
+                <div className="flex items-center px-4 py-3 space-x-2 bg-gray-50 sm:px-6">
                   <span className="block text-sm font-medium text-gray-400">Answer:</span>
                   <span className="block text-sm font-medium text-gray-900">{result}</span>
                 </div>
               </div>
             </div>
-            <div className="md:col-span-1 mt-5 lg:mt-0">
+            <div className="mt-5 md:col-span-1 lg:mt-0">
               <div>
                 <h1 className="text-lg font-medium leading-6 text-gray-900">
                   {capitalizeFirstLetter(from.split(" ")[0])} to{" "}
@@ -236,7 +236,7 @@ export const Head: HeadFC = (props) => {
   const url = `https://www.saatsazwatch.com/tools/convert-time/${meta.meta.slug}/`;
   return (
     <>
-      <HeadSEO title={title} description={description}>
+      <HeadSEO title={title} description={description} pathname={`/convert-time/${meta.meta.slug}`}>
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

@@ -4,7 +4,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     logo: `/logo.png`,
     favIcon: `/favicon.ico`,
-    siteUrl: `https://saatsazwatch.com`,
+    siteUrl: `https://www.saatsazwatch.com`,
     pathPrefix: "/tools",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
